@@ -59,11 +59,7 @@
 			</a>
 		</div>
 		<div class="relative shadow-2xl grid place-items-center">
-			<img
-				src="https://avatars.githubusercontent.com/u/55864118?v=4"
-				alt=""
-				class="object-cover z-[2] max-h-[70vh]"
-			/>
+			<img src="" alt="" class="object-cover z-[2] max-h-[70vh]" />
 		</div>
 	</section>
 
