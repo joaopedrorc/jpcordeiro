@@ -48,7 +48,7 @@
 			</h2>
 			<p class="text-base sm:text-lg md:text-xl">
 				My <span class="text-violet-400">favorite tech</span> includes Javascript (Next.JS or SvelteKit),
-				TailwindCSS, Node.js + Express and learning Go.
+				TailwindCSS, Node.js and learning Go.
 			</p>
 			<a
 				href="https://www.linkedin.com/in/joaopedrorc/"
