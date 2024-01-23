@@ -4,36 +4,39 @@
 	let steps = [
 		{
 			name: 'Project 1',
+			href: 'https://yuppiecaronas.com.br',
 			icon: 'fa-solid fa-code'
 		},
 		{
 			name: 'Project 2',
+			href: 'http://hasslefreecleaningservices.co.uk',
 			icon: 'fa-solid fa-code'
 		},
 		{
 			name: 'Project 3',
+			href: '#',
 			icon: 'fa-solid fa-code'
 		}
 	];
 
-	let benefits = [
-		{
-			metric: '10x',
-			name: 'a self taught developer',
-			description:
-				'I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.'
-		},
-		{
-			name: 'a product design & UX finatic',
-			description:
-				'Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.'
-		},
-		{
-			name: 'an excellent communicator',
-			description:
-				"Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team."
-		}
-	];
+	// let benefits = [
+	// 	{
+	// 		metric: '10x',
+	// 		name: 'a self taught developer',
+	// 		description:
+	// 			'I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.'
+	// 	},
+	// 	{
+	// 		name: 'a product design & UX finatic',
+	// 		description:
+	// 			'Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.'
+	// 	},
+	// 	{
+	// 		name: 'an excellent communicator',
+	// 		description:
+	// 			"Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team."
+	// 	}
+	// ];
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -44,11 +47,11 @@
 				based in <span class="text-violet-400">Brazil</span>.
 			</h2>
 			<p class="text-base sm:text-lg md:text-xl">
-				My <span class="text-violet-400">favorite tech</span> includes Javascript (Next.Js or SvelteKit),
-				TailwindCSS, Node.js + Express and MongoDB, Golang and Python.
+				My <span class="text-violet-400">favorite tech</span> includes Javascript (Next.JS or SvelteKit),
+				TailwindCSS, Node.js + Express and learning Go.
 			</p>
 			<a
-				href="#"
+				href="https://www.linkedin.com/in/joaopedrorc/"
 				target="_blank"
 				class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
 			>
@@ -75,34 +78,36 @@
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
 			<Step step={steps[0]}>
 				<p>
-					Project 1 description
-					<strong class="text-violet-400">Next.js Commerce.js Stripe & Node.js + Express.js!</strong
+					Project:
+					<strong class="text-violet-400"
+						>Car riding services exclusive for university students</strong
 					>
-					Commerce.js is a product CMS and Stripe is used for all transactions.
+					Founder of Yuppie Caronas Universitárias is a Brazilian startup that solves the problem of
+					university students who need to commute to their universities and don't have a car.
 				</p>
 			</Step>
 
 			<Step step={steps[1]}>
 				<p>
-					Project 1 description
-					<strong class="text-violet-400">Next.js Commerce.js Stripe & Node.js + Express.js!</strong
-					>
-					Commerce.js is a product CMS and Stripe is used for all transactions.
+					Project:
+					<strong class="text-violet-400">Business Website WordPress + Next.JS</strong>
+					Hassle-Free Cleaning Services is a UK based cleaning company that needed a website to showcase
+					their services and allow customers to book appointments online.
 				</p>
 			</Step>
 
 			<Step step={steps[2]}>
 				<p>
-					Project 1 description
-					<strong class="text-violet-400">Next.js Commerce.js Stripe & Node.js + Express.js!</strong
-					>
-					Commerce.js is a product CMS and Stripe is used for all transactions.
+					Project:
+					<strong class="text-violet-400">Business Website React.Js + Node.JS and Express </strong>
+					GGallery Painting and Decorating is a UK based painting and decorating company that needed
+					a website to showcase their services and allow customers to book appointments online.
 				</p>
 			</Step>
 		</div>
 	</section>
 
-	<section
+	<!-- <section
 		id="about"
 		class="py-20 pt-10 lg:pt16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
 	>
@@ -131,5 +136,5 @@
 				</div>
 			{/each}
 		</div>
-	</section>
+	</section> -->
 </main>
